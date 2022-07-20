@@ -1,0 +1,16 @@
+@import "../css/variables.scss";
+.button{
+    background-color: $orange;
+    width: 100%;
+    border: none;
+    color: $white;
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: 1rem;
+
+    img{
+        height: 1rem;
+        margin-right: .8rem;
+        filter: brightness(0) invert(1);
+    }
+}

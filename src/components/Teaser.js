@@ -38,7 +38,7 @@ const [counter, setCounter] = useState(1);
       <img
         className={styles["product-image"]}
         src={productImage}
-        alt="product image 1"
+        alt="product 1"
       />
       <div className={styles.buttons}>
         <div className={styles.button} onClick={prevClickHandler}>

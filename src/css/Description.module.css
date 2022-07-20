@@ -1,0 +1,23 @@
+.description {
+  padding-bottom: 1.5rem;
+}
+
+.description h1 {
+  font-size: .8rem;
+  letter-spacing: .1rem;
+  color: #ff7d1a;
+  text-transform: uppercase;
+}
+
+.description h2 {
+  max-width: 80%;
+  margin: 1rem 0;
+  font-size: 1.7rem;
+}
+
+.description p {
+  color: #68707d;
+  font-size: .9rem;
+  line-height: 1.4rem;
+}
+/*# sourceMappingURL=Description.module.css.map */

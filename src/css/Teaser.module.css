@@ -9,6 +9,7 @@
       -ms-flex-align: center;
           align-items: center;
   position: relative;
+  z-index: -10;
 }
 
 .teaser .product-image {
@@ -30,7 +31,6 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  z-index: 10;
 }
 
 .teaser .buttons .button {

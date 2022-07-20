@@ -1,0 +1,17 @@
+.button {
+  background-color: #ff7d1a;
+  width: 100%;
+  border: none;
+  color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+.button img {
+  height: 1rem;
+  margin-right: .8rem;
+  -webkit-filter: brightness(0) invert(1);
+          filter: brightness(0) invert(1);
+}
+/*# sourceMappingURL=Button.module.css.map */

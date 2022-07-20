@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,OAAO,CAAA;EACH,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;EACnB,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,aAAa;EAC9B,OAAO,EAAE,aAAa;CAazB;;AAlBD,AAOI,OAPG,CAOH,GAAG,CAAA;EACC,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;CAIhB;;AAbL,AAUQ,OAVD,CAOH,GAAG,AAGE,YAAa,CAAA,CAAC,EAAC;EACZ,MAAM,EAAE,KAAK;CAChB;;AAZT,AAcI,OAdG,CAcH,CAAC,CAAA;EACG,WAAW,EAAE,GAAG;CACnB",
+    "sources": [
+        "ProductAmount.module.scss",
+        "variables.scss"
+    ],
+    "names": [],
+    "file": "ProductAmount.module.css"
+}

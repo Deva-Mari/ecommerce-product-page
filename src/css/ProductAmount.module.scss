@@ -1,0 +1,21 @@
+@import "../css/variables.scss";
+
+.amount{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.2rem 1.5rem;
+
+    img{
+        width: .8rem;
+        height: .8rem;
+        &:nth-of-type(1){
+            height: .3rem;
+        }
+    }
+    p{
+        font-weight: 700;
+    }
+
+}
