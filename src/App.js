@@ -1,7 +1,15 @@
-function App() {
+ import Menubar from "./components/Menubar";
+
+ function App() {
   return (
     <div>
-      <h2>Let's get started!</h2>
+      <Menubar/>
+      {/* menubar */}
+      {/* teaser */}
+      {/* description */}
+      {/* pricing */}
+      {/* amount of product */}
+      {/* add to cart button */}
     </div>
   );
 }
