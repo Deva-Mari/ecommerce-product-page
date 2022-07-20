@@ -1,0 +1,54 @@
+.teaser {
+  width: 100%;
+  max-height: 19rem;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.teaser .product-image {
+  width: 100%;
+}
+
+.teaser .buttons {
+  position: absolute;
+  width: 100%;
+  padding: 0 1rem;
+  top: calc(50% -1.4rem);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  z-index: 10;
+}
+
+.teaser .buttons .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: white;
+  padding: .8rem;
+  border-radius: 50%;
+}
+
+.teaser .buttons .button img {
+  width: .6rem;
+}
+/*# sourceMappingURL=Teaser.module.css.map */

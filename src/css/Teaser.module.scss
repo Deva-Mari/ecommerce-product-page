@@ -1,0 +1,37 @@
+@import "../css/variables.scss";
+
+.teaser{
+    width: 100%;
+    max-height: 19rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    .product-image{
+        width: 100%;
+
+    }
+    .buttons{
+        position: absolute;
+        width: 100%;
+        padding: 0 1rem;
+        top: calc(50% -1.4rem);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        z-index: 10;
+        .button{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: $white;
+            padding: .8rem;
+            border-radius: 50%;
+            img{
+                width: .6rem;
+            }
+        }
+    }
+
+}

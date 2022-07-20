@@ -1,6 +1,7 @@
  import Menubar from "./components/Menubar";
  import Overlay from "./components/Overlay";
  import Hamburgermenu from "./components/Hamburgermenu";
+ import Teaser from "./components/Teaser";
  import {useSelector } from "react-redux";
 
  function App() {
@@ -10,9 +11,7 @@
       <Menubar/>
       {showHamburger && <Overlay/>}
       {showHamburger && <Hamburgermenu/>}
-      
-      
-      {/* teaser */}
+      <Teaser/>
       {/* description */}
       {/* pricing */}
       {/* amount of product */}
