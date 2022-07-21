@@ -18,7 +18,7 @@ function App() {
   }else{
     document.body.style.overflow = 'scroll';
   }
-  
+
   return (
     <div>
       <Menubar />

@@ -1,0 +1,68 @@
+.cart-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 11rem;
+  padding: 1.3rem;
+  color: #68707d;
+}
+
+.cart-content .row {
+  width: inherit;
+  padding-left: .9rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.cart-content .row .thumb {
+  width: 3rem;
+  min-height: 3rem;
+  border-radius: 5px;
+}
+
+.cart-content .row article p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding: 0;
+  font-weight: 400;
+}
+
+.cart-content .row article p span {
+  font-weight: 700;
+  color: black;
+}
+
+.cart-content button {
+  background-color: #ff7d1a;
+  width: 100%;
+  border: none;
+  color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: .9rem;
+  font-weight: 700;
+  margin-top: 1.5rem;
+}
+/*# sourceMappingURL=CartContent.module.css.map */

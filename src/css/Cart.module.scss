@@ -1,0 +1,20 @@
+@import "../css/variables.scss";
+
+.cart{
+    background: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 115%;
+    right: 2.5%;
+    box-shadow: 0px 15px 50px -15px $blackTransparency;
+    z-index: 5;
+    width: 95%;
+    // min-height: 15rem;
+    p{
+        padding: 1.3rem;
+        font-weight: 700;
+    }
+    hr{
+        border-top:0;
+    }
+}

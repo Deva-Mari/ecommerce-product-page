@@ -1,0 +1,49 @@
+@import "../css/variables.scss";
+
+.cart-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 11rem;
+    padding: 1.3rem;
+    color: $darkgrayishBlue;
+    .row{
+        width: inherit;
+        padding-left: .9rem; //why?????
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        .thumb{
+            width: 3rem;
+            min-height: 3rem;
+            border-radius: 5px;
+        }
+        article{
+            p{
+                font-size: 1rem;
+                line-height: 1.5rem;
+                padding: 0;
+                font-weight: 400;
+                span{
+                    font-weight: 700;
+                    color: $black;
+                }
+            }
+        }
+    }
+    button{
+        background-color: $orange;
+        width: 100%;
+        border: none;
+        color: $white;
+        padding: 1rem;
+        border-radius: 10px;
+        font-size: .9rem;
+        font-weight: 700;
+        margin-top: 1.5rem;
+    }
+}
+
